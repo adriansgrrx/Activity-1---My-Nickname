@@ -62,9 +62,9 @@ for n in range(20):
 
 print()
 
-for i in range(10):
-    if i == 4:
+for o in range(10):
+    if o == 4:
         print(" ", end="")
-    elif i==7:
+    elif o == 7:
         print("    ", end="")
     print("* ", end="")
