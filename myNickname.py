@@ -47,3 +47,24 @@ for l in range(8):
     print("* ", end="")
 
 print()
+
+for m in range(20):
+    if m==0 or m==7 or m==11 or m==18:
+        print("* ", end="")
+    print(" ", end="")
+
+print()
+
+for n in range(20):
+    if n==0 or n==7 or n==10 or n==18:
+        print("* ", end="")
+    print(" ", end="")
+
+print()
+
+for i in range(10):
+    if i == 4:
+        print(" ", end="")
+    elif i==7:
+        print("    ", end="")
+    print("* ", end="")
