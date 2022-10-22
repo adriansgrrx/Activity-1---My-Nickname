@@ -13,8 +13,9 @@
 # *        *    *         *   
 # * * * *  * * *     * * * 
 
-
-
-
-
-
+for i in range(10):
+    if i == 4:
+        print(" ", end="")
+    elif i==7:
+        print("    ", end="")
+    print("* ", end="")
